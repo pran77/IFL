@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.team {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.team .team-name {
+  width: 250px;
+  height: 25px;
+  background-color: gray;
+}
+
+.team .team-points {
+  width: 100px;
+  height: 25px;
+  background-color: bisque;
+}
+
+.team .team-players {
+  width: 1220px;
+  height: 25px;
+  background-color: gray;
+}
+
+.team .team-players .player {
+  margin: 25px;
+  display: inline;
+}

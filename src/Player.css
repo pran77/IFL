@@ -1,0 +1,58 @@
+.submit-button {
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(67, 67, 213);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.player-top {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.player-top .player-name {
+    width: 150px;
+    height: 25px;
+    background-color: gray;
+}
+
+.player-top .player-id {
+    width: 150px;
+    height: 25px;
+    background-color: bisque;
+}
+
+.player-top .player-team-id {
+    width: 150px;
+    height: 25px;
+    background-color: bisque;
+}
+
+.player-top .player-value {
+    width: 150px;
+    height: 25px;
+    background-color: gray;
+}
+
+.player-top .player-status {
+    width: 150px;
+    height: 25px;
+    background-color: bisque;
+}
+
+.player-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.player-bottom .input {
+    border: solid black 3px;
+    margin: 5px;
+}
